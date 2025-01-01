@@ -1,0 +1,63 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: darkgrey; /* Light gray background for modern look */
+    color: white; /* Dark text for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+#main-container {
+    text-align: center;
+    background-color: black; /* White card-like background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+}
+
+/* Header */
+#main-container h1 {
+    color: #4a90e2; /* Cool blue color */
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Quote Text */
+#quote {
+    font-size: 1.2rem;
+    color: white; /* Slightly darker gray for contrast */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+#generateQuote {
+    background-color: #4a90e2; /* Matching blue color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+#generateQuote:hover {
+    background-color: #357abd; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight pop-out effect */
+}
+
+/* Button Active Effect */
+#generateQuote:active {
+    background-color: #2d5a8a; /* Even darker blue when clicked */
+    transform: scale(1); /* Reset size on click */
+}
